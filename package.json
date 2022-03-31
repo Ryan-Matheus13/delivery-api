@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Ryan-Matheus13/delivery-api#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.3"
   }
 }
