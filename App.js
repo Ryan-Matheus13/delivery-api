@@ -9,8 +9,7 @@ app.get('/', (req, res) => {
 
 app.get('/produtos', (req, res) => {
     res.json(
-        {
-            "produtos":[
+            [
                 {
                     "title": "Promoções",
                     "X-Bacon": {
@@ -155,10 +154,7 @@ app.get('/produtos', (req, res) => {
                     "price": 10.5
                     }
                 }
-            ]
-        }
-        
-            
+            ]   
     )
 })
 
